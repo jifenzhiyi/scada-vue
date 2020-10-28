@@ -16,6 +16,7 @@
     "cross-env": "^7.0.2",
     "less": "^3.12.2",
     "less-loader": "5.0.0",
+    "pixi.js": "^5.3.3",
     "svg-sprite-loader": "^5.0.0",
     "vue": "^2.6.11",
     "vue-i18n": "^8.22.1",

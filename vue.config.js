@@ -6,12 +6,13 @@ const resolve = (dir) => path.join(__dirname, dir);
 module.exports = {
   lintOnSave: true,
   devServer: {
-    port: 8888,
+    hot: true,
     open: true,
+    port: 8888,
     host: '0.0.0.0',
   },
   css: {
-    extract: true,
+    extract: false,
     loaderOptions: {
       less: {
         modifyVars: {
